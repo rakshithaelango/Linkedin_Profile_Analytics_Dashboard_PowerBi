@@ -2,10 +2,15 @@
 To create a LinkedIn profile dashboard using Power BI and analyze your own LinkedIn data, 
 
 Follow these steps:
+
     * Go to your linkedin setting and privacy.
+    
     * Click pn "Data Privacy" i the setting menu.
+    
     * Under the "Get copy of your data" section,click on the corresponding option.
+    
     * Select Download large data archive.
+    
     * Download and Extract the data.
 
 Steps to create power Bi Dashboard:
