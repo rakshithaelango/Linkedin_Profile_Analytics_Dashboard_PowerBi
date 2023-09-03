@@ -52,7 +52,9 @@ Steps to create power Bi Dashboard:
           
 This all the following steps to perform LINKEDIN PROFILE ANALYTICS By using PowerBi dashboard.
 
+* STEP 7: LINKEDIN PROFILE ANALYTICS DASHBOARD
 
+  
 
 
 
