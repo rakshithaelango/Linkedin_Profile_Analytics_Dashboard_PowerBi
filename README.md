@@ -30,7 +30,7 @@ Steps to create power Bi Dashboard:
 
    * Created Date table:
 
-     
+     ![1693724273287 (1)](https://github.com/rakshithaelango/Linkedin_Profile_Analytics_Dashboard_PowerBi/assets/116090323/4e8387fb-f463-4f7f-99f4-b0b489c54555)
 
     * created calculations columns to measure Invitation received, invitation sent, messages received, messages sent, Total companies, Total connections.
 
