@@ -55,12 +55,11 @@ Steps to create power Bi Dashboard:
            * STACKED BAR CHART: To see Connection by companies and positions.
            * AREA CHART: To see Connection by month name and Quater.
           
-This all the following steps to perform LINKEDIN PROFILE ANALYTICS By using PowerBi dashboard.
 
 * STEP 7: LINKEDIN PROFILE ANALYTICS DASHBOARD
 
 ![1693723031166](https://github.com/rakshithaelango/Linkedin_Profile_Analytics_Dashboard_PowerBi/assets/116090323/279b756b-59a1-4130-b9c1-90f413d0ce89)
   
-
+This all the following steps to perform LINKEDIN PROFILE ANALYTICS By using PowerBi dashboard.
 
 
