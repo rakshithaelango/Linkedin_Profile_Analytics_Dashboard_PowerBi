@@ -29,10 +29,10 @@ Steps to create power Bi Dashboard:
 * STEP 5: Create DAX measures
 
    * Created Date table:
-
-     ![1693724273287 (1)](https://github.com/rakshithaelango/Linkedin_Profile_Analytics_Dashboard_PowerBi/assets/116090323/4e8387fb-f463-4f7f-99f4-b0b489c54555)
-
-    * created calculations columns to measure Invitation received, invitation sent, messages received, messages sent, Total companies, Total connections.
+     
+   ![1693724886948](https://github.com/rakshithaelango/Linkedin_Profile_Analytics_Dashboard_PowerBi/assets/116090323/ce0da497-a3f7-49f8-9fd5-fe9cd4965418)
+  
+  * created calculations columns to measure Invitation received, invitation sent, messages received, messages sent, Total companies, Total connections.
 
            * INVITATION RECEIVED : Invitation Recceived = COUNTROWS(FILTER(ALL(Invitations),Invitations[Direction] = "INCOMING"))
            * INVITATION SENT : Invitation Sent = COUNTROWS(FILTER(ALL(Invitations),Invitations[Direction] = "OUTGOING"))
