@@ -14,7 +14,7 @@ Steps to create power Bi Dashboard:
      
 * STEP 2: Load and transform the data.
   
-     * I have imported Files Invitations, Connections and Messages.
+     * Imported Files Invitations, Connections and Messages.
           
 * STEP 3: Data cleaning And Data pre - processing..
   
@@ -28,45 +28,10 @@ Steps to create power Bi Dashboard:
         
 * STEP 5: Create DAX measures
 
-        * Created Date table:
-  
-  Dates =
-  
-VAR MinYear = YEAR ( MIN (Connections[Date]) )
+   * Created Date table:
 
-VAR MaxYear = YEAR ( MAX (Connections[Date]) )
-
-RETURN
-
-ADDCOLUMNS (
-
-    FILTER (
-    
-        CALENDARAUTO( ),
-        
-        AND (YEAR ( [Date]  ) >= MinYear, YEAR( [Date] ) <= MaxYear )
-        
-    ),
-    
-    "Year", FORMAT([Date], "yyy"),
-    
-    --“Calendar Year”, “CY” & YEAR ( [Date] ),
-    
-    "Month Name", FORMAT ( [Date], "mmm" ),
-    
-    "Month Number",  MONTH ( [Date]),
-    
-    "Weekday", FORMAT ( [Date], "dddd"),
-    
-    "Weekday number", WEEKDAY ( [Date] ),
-    
-     "Year Month", FORMAT ([Date], "mmm yy"),
      
-    "Quater", "Q" & TRUNC ( ( MONTH ( [Date] ) -1 ) / 3 ) + 1
-    
-   )
 
-   
     * created calculations columns to measure Invitation received, invitation sent, messages received, messages sent, Total companies, Total connections.
 
            * INVITATION RECEIVED : Invitation Recceived = COUNTROWS(FILTER(ALL(Invitations),Invitations[Direction] = "INCOMING"))
@@ -77,9 +42,17 @@ ADDCOLUMNS (
            * TOTAL CONNECTIONS: Total Connections = COUNT(Connections[First Name])
             
 
-This all the following steps to perform INKEDIN PROFILE ANALYTICS DASHBOARD  PowerBi dashboard.
+* STEP 6: Created the Dashboard By using different visual.
+  
+           * CARDS: Created the cards to show Total companies, connections, messages received, sent and invitation sent.
+           * FLITERS : Created the fliters to show DATE and Companies.
+           * DONUT CHART: Clearly to see invitation received and sent.
+           * STACKED BAR CHART: To see Connection by companies and positions.
+           * AREA CHART: To see Connection by month name and Quater.
+          
+This all the following steps to perform LINKEDIN PROFILE ANALYTICS By using PowerBi dashboard.
 
-DAX MEASURES:
+
 
 
 
