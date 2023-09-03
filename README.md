@@ -54,6 +54,7 @@ This all the following steps to perform LINKEDIN PROFILE ANALYTICS By using Powe
 
 * STEP 7: LINKEDIN PROFILE ANALYTICS DASHBOARD
 
+![1693723031166](https://github.com/rakshithaelango/Linkedin_Profile_Analytics_Dashboard_PowerBi/assets/116090323/279b756b-59a1-4130-b9c1-90f413d0ce89)
   
 
 
