@@ -5,7 +5,7 @@ Follow these steps:
 
     * Go to your linkedin setting and privacy.
     
-    * Click On "Data Privacy" iN the setting menu.
+    * Click On "Data Privacy" in the setting menu.
     
     * Under the "Get copy of your data" section,click on the corresponding option.
     
@@ -15,7 +15,7 @@ Follow these steps:
 
 Steps to create power Bi Dashboard:
 
-* STEP 1: Understand and import the data file according to the formate.
+* STEP 1: Understand and import the data file according to the format.
      
 * STEP 2: Load and transform the data.
   
